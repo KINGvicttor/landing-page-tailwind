@@ -588,6 +588,58 @@ video {
   }
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+.col-end-2 {
+  grid-column-end: 2;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
+.row-span-4 {
+  grid-row: span 4 / span 4;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-end-4 {
+  grid-row-end: 4;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -646,6 +698,10 @@ video {
   display: table-cell;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -676,6 +732,26 @@ video {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-36 {
+  height: 9rem;
 }
 
 .w-8 {
@@ -732,6 +808,26 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -831,6 +927,21 @@ video {
   background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
+}
+
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
 }
@@ -841,6 +952,14 @@ video {
 
 .bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/group-young-businesspeople-meeting-office_171337-7269\.jpg\?t\=st\=1733754373\~exp\=1733757973\~hmac\=3e7f87d4fdc125290047b74a62379bedf82e52c0277324cbfd399f3269c0d9c7\&w\=2000\'\)\] {
   background-image: url('https://img.freepik.com/free-photo/group-young-businesspeople-meeting-office_171337-7269.jpg?t=st=1733754373~exp=1733757973~hmac=3e7f87d4fdc125290047b74a62379bedf82e52c0277324cbfd399f3269c0d9c7&w=2000');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/minimal-white-style-video-player-template-design_1017-25481\.jpg\?t\=st\=1733757546\~exp\=1733761146\~hmac\=f1d335d0e8c94f1886bb7aeab821c48a75a633b231eff0822f67524dfd621e1a\&w\=1380\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?t=st=1733757546~exp=1733761146~hmac=f1d335d0e8c94f1886bb7aeab821c48a75a633b231eff0822f67524dfd621e1a&w=1380');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/professional-programmer-working-late-dark-office_1098-18705\.jpg\?t\=st\=1733760597\~exp\=1733764197\~hmac\=806b62aa5bb568871f15111ef7fefce6704a31fb7cc6999d632e927a15236c3a\&w\=2000\'\)\] {
+  background-image: url('https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?t=st=1733760597~exp=1733764197~hmac=806b62aa5bb568871f15111ef7fefce6704a31fb7cc6999d632e927a15236c3a&w=2000');
 }
 
 .bg-cover {
@@ -865,6 +984,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .py-2 {
@@ -923,6 +1046,11 @@ video {
   line-height: 1;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -940,6 +1068,16 @@ video {
 .text-yellow-700 {
   --tw-text-opacity: 1;
   color: rgb(161 98 7 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
 .text-opacity-100 {
