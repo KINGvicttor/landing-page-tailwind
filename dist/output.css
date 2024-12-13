@@ -596,6 +596,10 @@ video {
   margin: 0.5rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -605,16 +609,24 @@ video {
   margin-right: auto;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .box-content {
@@ -629,6 +641,14 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -637,16 +657,24 @@ video {
   height: 4rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-20 {
   height: 5rem;
 }
 
-.h-24 {
-  height: 6rem;
+.h-32 {
+  height: 8rem;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-48 {
+  height: 12rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-\[400px\] {
@@ -657,6 +685,10 @@ video {
   height: 550px;
 }
 
+.h-\[800px\] {
+  height: 800px;
+}
+
 .h-\[calc\(100vh-80px\)\] {
   height: calc(100vh - 80px);
 }
@@ -665,72 +697,48 @@ video {
   height: 100%;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[1000px\] {
-  height: 1000px;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-16 {
   width: 4rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-8 {
-  width: 2rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-32 {
   width: 8rem;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
+.w-36 {
+  width: 9rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .cursor-pointer {
@@ -745,16 +753,8 @@ video {
   flex-wrap: wrap;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -769,8 +769,8 @@ video {
   gap: 0.5rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-full {
@@ -781,6 +781,28 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-l-full {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
+.rounded-r-full {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
 .border-b-4 {
   border-bottom-width: 4px;
 }
@@ -789,13 +811,14 @@ video {
   border-right-width: 2px;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
 .border-gray-400 {
@@ -803,9 +826,23 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
 }
 
+.border-transparent {
+  border-color: transparent;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
+.border-yellow-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 179 8 / var(--tw-border-opacity, 1));
+}
+
+.border-yellow-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(202 138 4 / var(--tw-border-opacity, 1));
 }
 
 .bg-black {
@@ -827,12 +864,28 @@ video {
   --tw-bg-opacity: 0.7;
 }
 
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/cyber-security-company-developers-encrypting-cloud-processing-data-system-using-blockchain-technology-cybernetics-engineers-reviewing-lines-code-order-secure-mainframe-database-storage_482257-38975\.jpg\?t\=st\=1734023633\~exp\=1734027233\~hmac\=0eb844b0dbf4af3c2fe23dbe82c679d317e4d096e173fe4de855cade94cb3c30\&w\=1380\'\)\] {
+  background-image: url('https://img.freepik.com/free-photo/cyber-security-company-developers-encrypting-cloud-processing-data-system-using-blockchain-technology-cybernetics-engineers-reviewing-lines-code-order-secure-mainframe-database-storage_482257-38975.jpg?t=st=1734023633~exp=1734027233~hmac=0eb844b0dbf4af3c2fe23dbe82c679d317e4d096e173fe4de855cade94cb3c30&w=1380');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/green-leaf-texture-leaf-texture-background_501050-120\.jpg\?t\=st\=1733940145\~exp\=1733943745\~hmac\=aae290f88127e922c6b04f6431b05404519eaf0dc20299b03fedd39ec619a297\&w\=1380\'\)\] {
+  background-image: url('https://img.freepik.com/free-photo/green-leaf-texture-leaf-texture-background_501050-120.jpg?t=st=1733940145~exp=1733943745~hmac=aae290f88127e922c6b04f6431b05404519eaf0dc20299b03fedd39ec619a297&w=1380');
+}
+
 .bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/group-young-businesspeople-meeting-office_171337-7269\.jpg\?t\=st\=1733754373\~exp\=1733757973\~hmac\=3e7f87d4fdc125290047b74a62379bedf82e52c0277324cbfd399f3269c0d9c7\&w\=2000\'\)\] {
   background-image: url('https://img.freepik.com/free-photo/group-young-businesspeople-meeting-office_171337-7269.jpg?t=st=1733754373~exp=1733757973~hmac=3e7f87d4fdc125290047b74a62379bedf82e52c0277324cbfd399f3269c0d9c7&w=2000');
 }
 
 .bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/professional-programmer-working-late-dark-office_1098-18705\.jpg\?t\=st\=1733766235\~exp\=1733769835\~hmac\=5061da8e1669a63917180b196733573b80b00997b29659ed61d2ba509d0d5f32\&w\=2000\'\)\] {
   background-image: url('https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?t=st=1733766235~exp=1733769835~hmac=5061da8e1669a63917180b196733573b80b00997b29659ed61d2ba509d0d5f32&w=2000');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/wooden-board-empty-table-top-blurred-background_1253-1584\.jpg\?t\=st\=1734023797\~exp\=1734027397\~hmac\=4e1ed82c7b6d25395923d2ff222c9b8c4f71c8a8abf6e175b6fe7bf34a80395c\&w\=1060\'\)\] {
+  background-image: url('https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?t=st=1734023797~exp=1734027397~hmac=4e1ed82c7b6d25395923d2ff222c9b8c4f71c8a8abf6e175b6fe7bf34a80395c&w=1060');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/software-engineering-background_1284-3394\.jpg\?t\=st\=1734023878\~exp\=1734027478\~hmac\=7b677c10a7353e121dc41d21fb100882eb63190cda42e77c23403606f18f85f9\&w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/software-engineering-background_1284-3394.jpg?t=st=1734023878~exp=1734027478~hmac=7b677c10a7353e121dc41d21fb100882eb63190cda42e77c23403606f18f85f9&w=826');
 }
 
 .bg-cover {
@@ -851,10 +904,6 @@ video {
   padding: 1.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -863,9 +912,9 @@ video {
   text-align: justify;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -873,23 +922,22 @@ video {
   line-height: 2.5rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-400 {
@@ -907,6 +955,10 @@ video {
   color: rgb(202 138 4 / var(--tw-text-opacity, 1));
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -922,6 +974,11 @@ video {
   border-bottom-width: 4px;
 }
 
+.hover\:border-yellow-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 179 8 / var(--tw-border-opacity, 1));
+}
+
 .hover\:border-yellow-600:hover {
   --tw-border-opacity: 1;
   border-color: rgb(202 138 4 / var(--tw-border-opacity, 1));
@@ -932,7 +989,20 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:hidden {
     display: none;
   }
@@ -941,6 +1011,22 @@ video {
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:h-\[33\%\] {
+    height: 33%;
+  }
+
+  .md\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
   }
 }
 
@@ -961,12 +1047,20 @@ video {
     height: 4rem;
   }
 
-  .lg\:w-48 {
-    width: 12rem;
+  .lg\:h-\[350px\] {
+    height: 350px;
   }
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-48 {
+    width: 12rem;
+  }
+
+  .lg\:w-\[20\%\] {
+    width: 20%;
   }
 
   .lg\:flex-col {
@@ -985,26 +1079,13 @@ video {
     padding: 1.5rem;
   }
 
-  .lg\:text-center {
-    text-align: center;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
-  .lg\:font-bold {
-    font-weight: 700;
-  }
-
-  .lg\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }

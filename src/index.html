@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="/dist/output.css">
 </head>
 <body class="box-content m-0 p-0 bg-black">
-    <div class="container mx-auto">
+    <div class="container mx-auto flex flex-col justify-center items-center">
         <!-- HEADER -->
 
-        <header class="h-20">
+        <header class="h-20 w-full">
             <nav class="flex">
                 <div class="">
                     <div class="w-16 h-16 rounded-full bg-yellow-600 m-2 cursor-pointer"></div>
@@ -37,7 +37,7 @@
         </header>
 
         <!-- BANNER SECTION -->
-         <div class=" h-[calc(100vh-80px)] bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/group-young-businesspeople-meeting-office_171337-7269.jpg?t=st=1733754373~exp=1733757973~hmac=3e7f87d4fdc125290047b74a62379bedf82e52c0277324cbfd399f3269c0d9c7&w=2000')]">
+         <div class=" h-[calc(100vh-80px)] w-full bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/group-young-businesspeople-meeting-office_171337-7269.jpg?t=st=1733754373~exp=1733757973~hmac=3e7f87d4fdc125290047b74a62379bedf82e52c0277324cbfd399f3269c0d9c7&w=2000')]">
             <div class="flex flex-col justify-center items-center h-[calc(100vh-80px)] bg-black bg-opacity-70">
                 <h1 class=" text-white font-bold lg:text-8xl text-4xl text-center">DESIGN IS ABOUT</h1>
                 <h1 class="text-yellow-600 font-bold lg:text-8xl text-4xl text-center">COMMUNICATION</h1>
@@ -48,19 +48,21 @@
 
          <!-- ABOUT US SECTION -->
 
-         <div class="bg-white h-[550px]">
+         <div class="bg-white h-[550px] w-full">
             <div class="flex flex-col w-full justify-center items-center p-6">
                 <h1 class="font-bold text-4xl lg:mt-6 mt-4">ABOUT US</h1>
                 <p class="font-bold text-gray-400">WHO WE ARE?</p>
             </div>
-            <div class="flex h-[400px] mt-6 p-6">
+            <div class="flex h-[400px] mt-6 mb-6 p-6">
                 <div class="lg:flex lg:flex-col lg:justify-start lg:items-start lg:w-1/2 lg:p-6 hidden">
                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eros purus, tempus posuere rutrum id, porta quis est. Integer non quam at est ullamcorper dignissim ullamcorper in dolor. Mauris in nisl lorem. Nullam vulputate viverra feugiat. Curabitur eleifend erat purus eget dignissim tortor porta sit amet. Quisque ligula turpis pharetra et tortor ac, rutrum rhoncus ligula</p>
                     <button class="w-36 h-14 bg-yellow-600 font-bold text-white rounded-full mt-6 hover:bg-yellow-500">LEARN MORE</button>
                 </div>
                 <div class="lg:w-1/2 w-full p-6">
                     <div class="flex justify-center items-center w-full h-full rounded-md shadow-md shadow-yellow-600 bg-cover bg-center bg-[url('https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?t=st=1733766235~exp=1733769835~hmac=5061da8e1669a63917180b196733573b80b00997b29659ed61d2ba509d0d5f32&w=2000')]">
-                        <img class="w-24 h-24 cursor-pointer" src="https://cdn.icon-icons.com/icons2/3641/PNG/512/play_yellow_button_icon_227852.png" alt="">
+                        <svg class="w-32 h-32 border-4 rounded-full border-yellow-600 text-yellow-600 cursor-pointer" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 18V6l8 6-8 6Z"/>
+                        </svg>                          
                     </div>
                 </div>
             </div>
@@ -68,47 +70,76 @@
 
          <!-- SERVICE SECTION -->
 
-         <div class="h-[400px]">
+         <div class="container mx-auto w-full">
             <div class="flex flex-col w-full justify-center items-center p-6">
                 <h1 class="text-white font-bold text-4xl lg:mt-6 mt-4">SERVICES</h1>
                 <p class="font-bold text-gray-400">SERVICES THAT WE PROVIDE</p>
             </div>
-            <div class="flex flex-col justify-center items-center sm:mt-6 p-6 h-full ">
-                <!-- mobile services -->
+            <div class="flex flex-col justify-center items-center lg:h-[350px]">
+
+                <!-- MOBILE VERSION -->
+
                 <div class="flex gap-2 lg:hidden">
-                    <div class="flex flex-col text-center border-r-2 border-gray-400 p-6 h-full">
+                    <div class="flex flex-col justify-center items-center text-center border-r-2 border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11c.889-.086 1.416-.543 2.156-1.057a22.323 22.323 0 0 0 3.958-5.084 1.6 1.6 0 0 1 .582-.628 1.549 1.549 0 0 1 1.466-.087c.205.095.388.233.537.406a1.64 1.64 0 0 1 .384 1.279l-1.388 4.114M7 11H4v6.5A1.5 1.5 0 0 0 5.5 19v0A1.5 1.5 0 0 0 7 17.5V11Zm6.5-1h4.915c.286 0 .372.014.626.15.254.135.472.332.637.572a1.874 1.874 0 0 1 .215 1.673l-2.098 6.4C17.538 19.52 17.368 20 16.12 20c-2.303 0-4.79-.943-6.67-1.475"/>
+                        </svg>                          
                         <h1 class="text-white font-bold">HIGH QUALITY <br> DESIGN</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
                     </div>
-                    <div class="flex flex-col text-center  border-gray-400 p-6 h-full">
+                    <div class="flex flex-col justify-center items-center text-center p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-width="2" d="M11.083 5.104c.35-.8 1.485-.8 1.834 0l1.752 4.022a1 1 0 0 0 .84.597l4.463.342c.9.069 1.255 1.2.556 1.771l-3.33 2.723a1 1 0 0 0-.337 1.016l1.03 4.119c.214.858-.71 1.552-1.474 1.106l-3.913-2.281a1 1 0 0 0-1.008 0L7.583 20.8c-.764.446-1.688-.248-1.474-1.106l1.03-4.119A1 1 0 0 0 6.8 14.56l-3.33-2.723c-.698-.571-.342-1.702.557-1.771l4.462-.342a1 1 0 0 0 .84-.597l1.753-4.022Z"/>
+                        </svg>
                         <h1 class="text-white font-bold">MODERN <br> DESIGN</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
                     </div>
                 </div>
                 <div class="flex gap-2 lg:hidden">
-                    <div class="flex flex-col text-center border-r-2 border-gray-400 p-6 h-full">
+                    <div class="flex flex-col justify-center items-center text-center border-r-2 border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                        </svg>                          
                         <h1 class="text-white font-bold">REGULAR <br> UPDATES</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
                     </div>
-                    <div class="flex flex-col text-center  border-gray-400 p-6 h-full">
+                    <div class="flex flex-col justify-center items-center text-center border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10.5h.01m-4.01 0h.01M8 10.5h.01M5 5h14a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-6.6a1 1 0 0 0-.69.275l-2.866 2.723A.5.5 0 0 1 8 18.635V17a1 1 0 0 0-1-1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/>
+                        </svg>                          
                         <h1 class="text-white font-bold">FAST AND FREE <br> SUPORT</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
                     </div>
                 </div>
 
-                <!-- web services -->
-
-                <div class="hidden lg:flex md:hidden">
-                    <div class="flex flex-col text-center border-r-2 border-gray-400 p-6 h-full">
+                <!-- WEB VERSION -->
+                 
+               <div class="hidden lg:flex md:hidden justify-center items-center mt-6 mb-6 p-6">
+                    <div class="flex flex-col justify-center items-center text-center border-r-2 border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11c.889-.086 1.416-.543 2.156-1.057a22.323 22.323 0 0 0 3.958-5.084 1.6 1.6 0 0 1 .582-.628 1.549 1.549 0 0 1 1.466-.087c.205.095.388.233.537.406a1.64 1.64 0 0 1 .384 1.279l-1.388 4.114M7 11H4v6.5A1.5 1.5 0 0 0 5.5 19v0A1.5 1.5 0 0 0 7 17.5V11Zm6.5-1h4.915c.286 0 .372.014.626.15.254.135.472.332.637.572a1.874 1.874 0 0 1 .215 1.673l-2.098 6.4C17.538 19.52 17.368 20 16.12 20c-2.303 0-4.79-.943-6.67-1.475"/>
+                        </svg>                          
                         <h1 class="text-white font-bold">HIGH QUALITY <br> DESIGN</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
-                    </div><div class="flex flex-col text-center border-r-2 border-gray-400 p-6 h-full">
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-center border-r-2 border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-width="2" d="M11.083 5.104c.35-.8 1.485-.8 1.834 0l1.752 4.022a1 1 0 0 0 .84.597l4.463.342c.9.069 1.255 1.2.556 1.771l-3.33 2.723a1 1 0 0 0-.337 1.016l1.03 4.119c.214.858-.71 1.552-1.474 1.106l-3.913-2.281a1 1 0 0 0-1.008 0L7.583 20.8c-.764.446-1.688-.248-1.474-1.106l1.03-4.119A1 1 0 0 0 6.8 14.56l-3.33-2.723c-.698-.571-.342-1.702.557-1.771l4.462-.342a1 1 0 0 0 .84-.597l1.753-4.022Z"/>
+                        </svg>
                         <h1 class="text-white font-bold">MODERN <br> DESIGN</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
-                    </div><div class="flex flex-col text-center border-r-2 border-gray-400 p-6 h-full">
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-center border-r-2 border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                        </svg>                          
                         <h1 class="text-white font-bold">REGULAR <br> UPDATES</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
-                    </div><div class="flex flex-col text-center  border-gray-400 p-6 h-full">
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-center border-gray-400 p-6">
+                        <svg class="w-8 h-8 mb-2 text-yellow-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 10.5h.01m-4.01 0h.01M8 10.5h.01M5 5h14a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-6.6a1 1 0 0 0-.69.275l-2.866 2.723A.5.5 0 0 1 8 18.635V17a1 1 0 0 0-1-1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/>
+                        </svg>                          
                         <h1 class="text-white font-bold">FAST AND FREE <br> SUPORT</h1>
                         <p class="text-gray-400">Praesent metus urna, feugiata placerat elementum</p>
                     </div>
@@ -117,7 +148,77 @@
             </div>
          </div>
 
-         <!--  -->
+         <!-- OUR PROJECTS SECTION -->
+
+         <div class="flex flex-col h-[800px] w-full bg-white">
+            <div class="flex flex-col w-full justify-center items-center p-6">
+                <h1 class="font-bold text-4xl lg:mt-6 mt-4">OUR PROJECTS</h1>
+                <p class="font-bold text-gray-400">WHAT WE CREATE</p>
+                <div class="lg:flex md:flex sm:flex border-2 mt-6 border-gray-300 rounded-full w-auto hidden">
+                    <ul class="flex font-medium text-gray-400">
+                        <a href="" class="border-b-4 border-transparent rounded-l-full hover:border-b-4 hover:border-yellow-500 hover:text-black"><li class="m-4">ALL</li></a>
+                        <a href="" class="border-b-4  hover:border-b-4 border-yellow-500 text-black"><li class="m-4">PHOTOS</li></a>
+                        <a href="" class="border-b-4 border-transparent hover:border-b-4 hover:border-yellow-500 hover:text-black"><li class="m-4">BRANDING</li></a>
+                        <a href="" class="border-b-4 border-transparent hover:border-b-4 hover:border-yellow-500 hover:text-black"><li class="m-4">ADVERTS</li></a>
+                        <a href="" class="border-b-4 border-transparent hover:border-b-4 hover:border-yellow-500 hover:text-black"><li class="m-4">DEVELOPMENT</li></a>
+                        <a href="" class="border-b-4 border-transparent rounded-r-full hover:border-b-4 hover:border-yellow-500 hover:text-black"><li class="m-4">MISC</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-center items-center w-full flex-wrap mt-6 mb-6 p-6 gap-6">
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] lg:flex md:flex hidden h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/green-leaf-texture-leaf-texture-background_501050-120.jpg?t=st=1733940145~exp=1733943745~hmac=aae290f88127e922c6b04f6431b05404519eaf0dc20299b03fedd39ec619a297&w=1380')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] lg:flex md:hidden hidden h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?t=st=1734023797~exp=1734027397~hmac=4e1ed82c7b6d25395923d2ff222c9b8c4f71c8a8abf6e175b6fe7bf34a80395c&w=1060')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] lg:flex md:flex hidden h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-vector/software-engineering-background_1284-3394.jpg?t=st=1734023878~exp=1734027478~hmac=7b677c10a7353e121dc41d21fb100882eb63190cda42e77c23403606f18f85f9&w=826')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] lg:flex md:flex hidden h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/cyber-security-company-developers-encrypting-cloud-processing-data-system-using-blockchain-technology-cybernetics-engineers-reviewing-lines-code-order-secure-mainframe-database-storage_482257-38975.jpg?t=st=1734023633~exp=1734027233~hmac=0eb844b0dbf4af3c2fe23dbe82c679d317e4d096e173fe4de855cade94cb3c30&w=1380')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:hidden lg:flex h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/cyber-security-company-developers-encrypting-cloud-processing-data-system-using-blockchain-technology-cybernetics-engineers-reviewing-lines-code-order-secure-mainframe-database-storage_482257-38975.jpg?t=st=1734023633~exp=1734027233~hmac=0eb844b0dbf4af3c2fe23dbe82c679d317e4d096e173fe4de855cade94cb3c30&w=1380')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-vector/software-engineering-background_1284-3394.jpg?t=st=1734023878~exp=1734027478~hmac=7b677c10a7353e121dc41d21fb100882eb63190cda42e77c23403606f18f85f9&w=826')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full ">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?t=st=1734023797~exp=1734027397~hmac=4e1ed82c7b6d25395923d2ff222c9b8c4f71c8a8abf6e175b6fe7bf34a80395c&w=1060')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+                <div class="w-[45%] lg:w-[20%] md:w-[30%] h-48 bg-center bg-cover bg-[url('https://img.freepik.com/free-photo/green-leaf-texture-leaf-texture-background_501050-120.jpg?t=st=1733940145~exp=1733943745~hmac=aae290f88127e922c6b04f6431b05404519eaf0dc20299b03fedd39ec619a297&w=1380')]">
+                    <div class="flex flex-col text-center justify-center bg-black opacity-0 hover:opacity-100 cursor-pointer w-full h-full">
+                        <h1 class="text-white font-bold text-3xl">TITLE</h1>
+                        <p class="text-white text-lg">Praesent metus urna, feugiat a placerat elementum at leo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <button class="w-36 h-10 bg-yellow-600 hover:bg-yellow-500 text-white font-bold rounded-full">MORE PROJECTS</button>
+            </div>
+         </div>
     </div>
 </body>
 </html>
