@@ -649,6 +649,10 @@ video {
   margin-right: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .box-content {
   box-sizing: content-box;
 }
@@ -811,6 +815,10 @@ video {
 
 .w-2 {
   width: 0.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .cursor-pointer {
@@ -1024,6 +1032,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
