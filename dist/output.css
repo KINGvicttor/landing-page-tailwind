@@ -891,6 +891,10 @@ video {
   border-right-width: 2px;
 }
 
+.border-t-4 {
+  border-top-width: 4px;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
@@ -923,6 +927,11 @@ video {
 .border-yellow-600 {
   --tw-border-opacity: 1;
   border-color: rgb(202 138 4 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 
 .border-t-yellow-600 {
@@ -979,6 +988,38 @@ video {
 
 .bg-none {
   background-image: none;
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/letter-p-stairs-logo-design_474888-1725\.jpg\?t\=st\=1734112157\~exp\=1734115757\~hmac\=36f6cb0f4022b13864021cee1d16ad56c8e76524cf72b31ace125a1ce199d95c\&w\=2000\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/letter-p-stairs-logo-design_474888-1725.jpg?t=st=1734112157~exp=1734115757~hmac=36f6cb0f4022b13864021cee1d16ad56c8e76524cf72b31ace125a1ce199d95c&w=2000');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-vector\/minimalist-type-creative-business-logo-template_1283348-20187\.jpg\?w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/premium-vector/minimalist-type-creative-business-logo-template_1283348-20187.jpg?w=826');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/letter-p-stairs-logo-design_474888-1725\.jpg\?t\=st\=1734112157\~exp\=1734115757\~hmac\=36f6cb0f4022b13864021cee1d16ad56c8e76524cf72b31ace125a1ce199d95c\&w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/letter-p-stairs-logo-design_474888-1725.jpg?t=st=1734112157~exp=1734115757~hmac=36f6cb0f4022b13864021cee1d16ad56c8e76524cf72b31ace125a1ce199d95c&w=826');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/letter-e-vector-logo-design_557339-698\.jpg\?t\=st\=1734112434\~exp\=1734116034\~hmac\=c69be8af66f35886302dd976ad74191ed067382fd2924d1514d0a1cc7c047906\&w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/letter-e-vector-logo-design_557339-698.jpg?t=st=1734112434~exp=1734116034~hmac=c69be8af66f35886302dd976ad74191ed067382fd2924d1514d0a1cc7c047906&w=826');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-vector\/ekn-letter-logo-design-with-polygon-shape-ekn-polygon-cube-shape-logo-design-ekn-hexagon-vector-logo-template-white-black-colors-ekn-monogram-business-real-estate-logo_229120-44938\.jpg\?w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/premium-vector/ekn-letter-logo-design-with-polygon-shape-ekn-polygon-cube-shape-logo-design-ekn-hexagon-vector-logo-template-white-black-colors-ekn-monogram-business-real-estate-logo_229120-44938.jpg?w=826');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/flower-silhouette-logo_361591-2483\.jpg\?t\=st\=1734112499\~exp\=1734116099\~hmac\=c5e56391fe935cc05c4b8ff7c8e773f8c79dc9303ecfed774d3033631e1ba8de\&w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/flower-silhouette-logo_361591-2483.jpg?t=st=1734112499~exp=1734116099~hmac=c5e56391fe935cc05c4b8ff7c8e773f8c79dc9303ecfed774d3033631e1ba8de&w=826');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-vector\/minimal-logo-design-wordmark-logo_19856-401\.jpg\?w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/premium-vector/minimal-logo-design-wordmark-logo_19856-401.jpg?w=826');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/premium-vector\/nsk-logo-design-initial-letter-nsk-monogram-logo-using-hexagon-shape_1101554-39699\.jpg\?w\=826\'\)\] {
+  background-image: url('https://img.freepik.com/premium-vector/nsk-logo-design-initial-letter-nsk-monogram-logo-using-hexagon-shape_1101554-39699.jpg?w=826');
 }
 
 .bg-cover {
@@ -1159,6 +1200,16 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 640px) {
+  @media (min-width: 768px) {
+    @media (min-width: 1024px) {
+      .sm\:md\:lg\:flex {
+        display: flex;
+      }
+    }
   }
 }
 
